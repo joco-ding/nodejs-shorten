@@ -1,19 +1,23 @@
+/* Mengatur font family, margin, dan padding pada elemen body. */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
+/* Mengatur teks pada elemen h1 menjadi rata tengah. */
 h1 {
   text-align: center;
 }
 
+/* Mengatur tampilan form agar rapi dan menempatkan elemen ke tengah halaman. */
 form {
   display: flex;
   margin: 20px auto;
   max-width: 600px;
 }
 
+/* Mengatur tampilan input text, menambahkan padding, menghilangkan border, dan menambahkan border bawah dengan warna abu-abu (#ccc). */
 input[type="text"] {
   flex: 1;
   padding: 10px;
@@ -22,6 +26,7 @@ input[type="text"] {
   font-size: 16px;
 }
 
+/* Mengatur tampilan tombol dengan menambahkan padding, warna latar belakang biru (#007bff), warna teks putih (#fff), dan membuat pointer mouse menjadi tangan saat diarahkan ke tombol. */
 button {
   padding: 10px;
   background-color: #007bff;
@@ -31,6 +36,7 @@ button {
   cursor: pointer;
 }
 
+/* Mengatur tampilan kontainer hasil URL pendek dengan menambahkan margin, lebar maksimum, padding, border, dan radius border. */
 #short-url-container {
   margin: 20px auto;
   max-width: 600px;
@@ -39,6 +45,7 @@ button {
   border-radius: 5px;
 }
 
+/* Mengatur tampilan teks pada kontainer hasil URL pendek menjadi ukuran 16px.  */
 #short-url-container p {
   font-size: 16px;
 }

@@ -1,16 +1,31 @@
+<!-- Mendefinisikan tipe dokumen sebagai HTML5. -->
 <!DOCTYPE html>
+<!-- Mengelompokkan semua elemen HTML pada halaman web. -->
 <html>
-  <head>
-    <title>URL Shortener</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <h1>URL Shortener</h1>
-    <form id="shorten-form">
-      <input type="text" id="url-input" placeholder="Enter a URL to shorten">
-      <button type="submit">Shorten</button>
-    </form>
-    <div id="short-url-container"></div>
-    <script src="app.js"></script>
-  </body>
+<!-- Menyediakan informasi meta dan referensi terhadap file CSS dan JavaScript yang digunakan pada halaman web. -->
+
+<head>
+  <!-- Menentukan judul halaman web yang akan ditampilkan pada tab browser. -->
+  <title>URL Shortener</title>
+  <!-- Menghubungkan file CSS pada halaman web. -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<!-- Mengelompokkan seluruh isi halaman web yang akan ditampilkan pada browser. -->
+
+<body>
+  <!-- Menampilkan judul halaman web. -->
+  <h1>URL Shortener</h1>
+  <!-- Menampilkan form untuk memasukkan URL yang ingin di-shorten. -->
+  <form id="shorten-form">
+    <!-- Menampilkan input text yang akan digunakan untuk memasukkan URL yang akan di-shorten. -->
+    <input type="text" id="url-input" placeholder="Enter a URL to shorten">
+    <!-- Menampilkan tombol submit yang akan digunakan untuk mengirimkan permintaan. -->
+    <button type="submit">Shorten</button>
+  </form>
+  <!-- Menampilkan kontainer yang akan menampilkan hasil URL pendek. -->
+  <div id="short-url-container"></div>
+  <!-- Menghubungkan file JavaScript yang digunakan pada halaman web. -->
+  <script src="app.js"></script>
+</body>
+
 </html>

@@ -16,4 +16,7 @@ belum tersedia
 
 ## Video Tutorial
 
-belum tersedia
+Video tutorial-nya bisa dilihat di 
+[youtube](https://youtu.be/EoilzTpC5-I). 
+Jika ada yang ingin ditanyakan silakan tinggalkan di 
+kolom komentar pada video nya.
